@@ -1,0 +1,64 @@
+.home {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #336633;
+    color: white;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.hero {
+    padding: 50px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+.content {
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 20px;
+    }
+
+    .hero h1 {
+        font-size: 2em;
+    }
+
+    .hero p {
+        font-size: 1em;
+    }
+}
