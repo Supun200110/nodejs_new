@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className="home">
       <div className="hero">
-        <h1>Salon supun</h1>
+        <h1>Saloon Supun</h1>
         <p>Beauty begins the moment you decide to be yourself</p>
         <p>- Coco Chanel</p>
         <img src="/salon-image.png" alt="Salon Nayana" />
